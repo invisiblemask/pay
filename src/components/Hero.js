@@ -4,13 +4,15 @@ import amazon from '../assets/amazon.svg'
 import ebay from '../assets/ebay.svg'
 import walmart from '../assets/walmart.svg'
 import masterCard from '../assets/mastercard.svg'
+import creditCard from '../assets/credit.png'
+import blackCredit from '../assets/creditblack.png'
 
 const Hero = () => {
     return (
         <div>
             <div className='mt-14'>
-                <div className='lg:flex lg:px-24 lg:gap-10 px-4'>
-                    <div className='lg:w-2/5'>
+                <div className='lg:flex lg:px-24 lg:gap-10 md:gap-10 px-4 md:flex'>
+                    <div className='lg:w-2/5 md:w-1/2'>
                         <div className='flex flex-col'>
                             <div className='border self-start rounded-2xl px-2 text-cyan-500 bg-indigo-50 text-xs font-semibold'>
                                 BEST CHOICE
@@ -28,14 +30,14 @@ const Hero = () => {
                             </div>
                             <div>
                                 <div className='relative mt-8 flex items-center'>
-                                    <div className='border rounded-4xl px-4 py-4 pr-14 w-full lg:w-4/5 text-2xs lg:text-xs'>
+                                    <div className='border rounded-4xl px-4 py-4 lg:py-5 pr-14 w-full lg:w-4/5 text-2xs lg:text-xs'>
                                         <input
                                             type="email"
                                             placeholder='Your work email'
                                             className='outline-none w-3/4 lg:w-10/12'
                                         />
                                     </div>
-                                    <button className='bg-cyan-600 text-white rounded-4xl p-3 absolute text-xs right-1 lg:right-24 font-bold'>Get Started</button>
+                                    <button className='bg-cyan-600 text-white rounded-4xl p-3 lg:p-4 absolute text-xs right-1 lg:right-24 font-bold'>Get Started</button>
                                 </div>
                             </div>
                             <div className='mt-8 flex gap-8 items-center justify-center'>
@@ -46,15 +48,15 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='relative flex-1 flex justify-center mt-32'>
-                        <div className='rounded-tl-lg rounded-br-[400px] rounded-tr-[100px] rounded-r-2xl w-full h-screen lg:h-full bg-gray-50'></div>
+                    <div className='relative flex-1 lg:flex justify-center mt-32 hidden md:flex'>
+                        <div className='rounded-tl-lg rounded-br-[400px] rounded-tr-[100px] rounded-r-2xl w-full h-screen md:h-full lg:h-full bg-gray-50'></div>
                         <div className=''>
                             <div className=''>
-                                <div className='absolute left-5 bg-white flex flex-col shadow-2xl rounded-lg p-6 -top-32'>
+                                <div className='bg-opacity-60 backdrop-filter backdrop-blur-lg absolute lg:left-36 left-0 flex flex-col shadow-xl rounded-2xl border p-6 -top-32'>
                                     <div className='flex flex-col'>
-                                        <h2 className='text-xs'>CARD NUMBER</h2>
-                                        <div className='border px-4 py-1 rounded-md mt-1 flex items-center w-80 justify-between'>
-                                            <div>**** **** **** 1253</div>
+                                        <h2 className='text-xs lg:text-xs md:text-2xs'>CARD NUMBER</h2>
+                                        <div className='border px-4 py-1 rounded-md mt-1 flex items-center w-80 lg:w-80 md:w-60 justify-between'>
+                                            <div className='lg:text-sm md:text-2xs'>**** **** **** 1253</div>
                                             <img
                                                 src={masterCard}
                                                 alt=""
@@ -64,20 +66,30 @@ const Hero = () => {
                                     </div>
                                     <div className='flex flex-row justify-between mt-4'>
                                         <div>
-                                            <h2 className='text-xs'>DATE</h2>
-                                            <div className='border px-4 py-1 rounded-md mt-1 w-24'>12/2022</div>
+                                            <h2 className='lg:text-xs text-xs md:text-2xs'>DATE</h2>
+                                            <div className='border px-4 py-1 rounded-md mt-1 w-24 md:text-2xs lg:text-xs'>12/2022</div>
                                         </div>
                                         <div>
-                                            <h2 className='text-xs'>SERIAL</h2>
-                                            <div className='border px-4 py-1 rounded-md mt-1 w-24'>7689</div>
+                                            <h2 className='text-xs md:text-2xs lg:text-xs'>SERIAL</h2>
+                                            <div className='border px-4 py-1 rounded-md mt-1 w-24 md:text-2xs lg:text-xs'>7689</div>
                                         </div>
                                     </div>
                                     <div className='mt-2 flex items-center'>
-                                        <div className='h-3 w-3 border'></div>
-                                        <span className='ml-2'>Save card</span>
+                                        <div className='lg:h-3 lg:w-3 h-3 w-3 border md:h-2 md:w-2'></div>
+                                        <span className='ml-2 md:text-2xs lg:text-xs'>Save card</span>
                                     </div>
-                                    <div className='text-white text-center bg-gray-900 text-sm p-2 rounded-2xl mt-4 font-bold'>Get Started</div>
+                                    <div className='text-white text-center bg-gray-900 text-sm p-2 rounded-2xl mt-4 font-bold md:text-2xs lg:text-sm'>Get Started</div>
                                 </div>
+                                <img
+                                    src={creditCard}
+                                    alt=""
+                                    className='absolute md:w-3/4 md:top-32 md:left-6 left-0 top-44 lg:w-3/5 lg:left-80 lg:-bottom-20'
+                                />
+                                <img
+                                    src={blackCredit}
+                                    alt=""
+                                    className='absolute left-0 top-80 lg:w-3/4 lg:-left-32 lg:top-20 md:top-32 md:left-6'
+                                />
                             </div>
                             <div className=''>
                                 <div>

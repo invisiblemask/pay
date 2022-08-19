@@ -23,7 +23,7 @@ const Navbar = () => {
                             </a>
                         </div>
 
-                        <div className='hidden lg:flex lg:gap-10'>
+                        <div className='hidden lg:flex lg:gap-10 text-sm'>
                             <a
                                 href='/'
                                 className='flex flex-row items-center gap-1'

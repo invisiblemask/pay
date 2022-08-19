@@ -30,19 +30,19 @@ const Pricing = () => {
                     <div className='flex items-center gap-2'>
                         <div className='text-gray-600 text-xs lg:text-sm'>Monthly</div>
                         <div className='flex relative items-center'>
-                            <div className='w-10 h-5 lg:w-12 lg:h-5 border bg-gray-200 rounded-3xl'></div>
+                            <div className='w-10 h-5 border bg-gray-200 rounded-3xl'></div>
                             <div className='w-4 h-4 border bg-cyan-600 rounded-full absolute right-1'></div>
                         </div>
                         <div className='text-cyan-500 text-xs lg:text-sm'>Yearly</div>
                     </div>
                 </div>
-                <div className='mt-8 lg:flex lg:flex-row lg:items-start'>
-                    <div className='flex flex-col bg-gray-50 p-4 sm:rounded-3xl lg:rounded-l-3xl mb-6 lg:mb-0 lg:mt-10 lg:p-6 lg:gap-5'>
+                <div className='mt-8 lg:flex lg:flex-row lg:items-start md:flex md:flex-row'>
+                    <div className='flex flex-col bg-gray-50 p-4 sm:rounded-3xl md:h-1/2 lg:rounded-l-3xl md:rounded-l-3xl mb-6 lg:mb-0 md:mb-0 md:mt-10 lg:mt-10 lg:p-6 md:p-6 md:gap-6 lg:gap-5'>
                         <h2 className='font-bold lg:text-xl'>Basic</h2>
-                        <p className='text-gray-600 text-xs lg:text-sm mt-2'>Kickstart product research in your business at no cost</p>
+                        <p className='text-gray-600 text-xs lg:text-sm md:text-sm mt-2'>Kickstart product research in your business at no cost</p>
                         <p className='mt-2'>
                             <span className='font-bold text-xl'>$199</span>
-                            <span className='text-xs lg:text-sm text-gray-600'>/month</span>
+                            <span className='text-xs lg:text-sm md:text-sm text-gray-600'>/month</span>
                         </p>
                         <button className='ring-1 ring-cyan-600 px-4 py-2 rounded-3xl mt-5 self-center w-3/4 bg-white font-bold'>Book demo</button>
                     </div>
@@ -56,9 +56,9 @@ const Pricing = () => {
                             <span className='text-white text-sm'>MOST POPULAR</span>
 
                         </div>
-                        <div className='p-4 flex flex-col'>
+                        <div className='p-4 flex flex-col lg:px-6'>
                             <h2 className='text-white lg:text-xl'>Pro</h2>
-                            <p className='text-gray-400 font-bold text-xs mt-2 w-3/4 leading-loose lg:text-sm'>Fuel your product workflow with more advanced research features</p>
+                            <p className='text-gray-400 font-bold text-xs mt-2 w-3/4 leading-loose lg:text-sm md:text-sm'>Fuel your product workflow with more advanced research features</p>
                             <p className='mt-2'>
                                 <span className='font-bold text-xl text-white'>$250</span>
                                 <span className='text-xs text-gray-600'>/month</span>
@@ -84,9 +84,9 @@ const Pricing = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex flex-col bg-gray-50 p-4 rounded-3xl mb-6 lg:mb-0 lg:mt-10 lg:p-6 lg:gap-5'>
-                        <h2 className='font-bold lg:text-xl'>Enterprise</h2>
-                        <p className='text-gray-600 text-xs mt-2 lg:text-sm lg:w-80'>Scale product research and learning across your company</p>
+                    <div className='flex flex-col bg-gray-50 p-4 rounded-3xl mb-6 lg:mb-0 md:mb-0 md:mt-10 md:p-6 md:gap-5 md:h-1/2 lg:mt-10 lg:p-6 lg:gap-5'>
+                        <h2 className='font-bold lg:text-xl md:text-xl'>Enterprise</h2>
+                        <p className='text-gray-600 text-xs mt-2 lg:text-sm md:text-sm lg:w-80'>Scale product research and learning across your company</p>
                         <p className='mt-2'>
                             <span className='font-bold text-xl'>$499</span>
                             <span className='text-xs text-gray-600'>/month</span>
@@ -97,14 +97,14 @@ const Pricing = () => {
                 <div>
                     <p className='text-center text-sm text-gray-600 mt-4 lg:text-base'>Join these amazing companies who already use Pay</p>
                 </div>
-                <div className='mt-8 flex gap-8 items-center justify-center lg:items-center'>
-                    <img src={uber} alt="" className='w-11 lg:w-20' />
-                    <img src={amazon} alt="" className='w-11 lg:w-20' />
-                    <img src={ebay} alt="" className='w-11 lg:w-20' />
-                    <img src={walmart} alt="" className='w-11 lg:w-20' />
+                <div className='mt-8 flex lg:gap-8 gap-4 items-center justify-center'>
+                    <img src={uber} alt="" className='w-12 lg:w-20 md:w-20' />
+                    <img src={amazon} alt="" className='w-12 lg:w-20 md:w-20' />
+                    <img src={ebay} alt="" className='w-12 lg:w-20 md:w-20' />
+                    <img src={walmart} alt="" className='w-12 lg:w-20 md:w-20' />
                     <div className='flex items-center'>
                         <img src={airbnb} alt="" />
-                        <span className='font-bold'>airbnb</span>
+                        <span className='font-bold text-sm'>airbnb</span>
                     </div>
                 </div>
             </div>
