@@ -30,12 +30,12 @@ const Features = () => {
                 </div>
                 <div className='my-10'>
                     <div className='my-7 lg:flex lg:flex-row md:flex md:flex-row md:gap-6 lg:gap-8 lg:justify-center'>
-                        <div className='flex mt-4 lg:mt-0 md:mt-0 bg-gray-50 p-4 justify-between rounded-2xl lg:p-8 md:p-6 md:w-full lg:w-fit lg:rounded-3xl lg:gap-3'>
+                        <div className='flex mt-4 lg:mt-0 2xl:mb-0 mb-4 md:mt-0 bg-gray-50 p-4 justify-between rounded-2xl lg:p-8 md:p-6 md:w-full lg:w-fit lg:rounded-3xl lg:gap-3'>
                             <div className='lg:w-56'>
-                                <h2 className='font-bold text-xl'>Pay with PAY, quick, simple and easy</h2>
-                                <p className='my-4 text-xs text-gray-600'>Use Pay to pay to a merchant and enjoy optimal payment user experience</p>
+                                <h2 className='font-bold text-xl 2xl:text-2xl'>Pay with PAY, quick, simple and easy</h2>
+                                <p className='my-4 text-xs text-gray-600 2xl:text-base'>Use Pay to pay to a merchant and enjoy optimal payment user experience</p>
                                 <div className=''>
-                                    <button className='flex flex-row items-center bg-cyan-600 self-start text-gray-100 px-3 py-2 rounded-2xl text-xs font-bold lg:mt-6'>
+                                    <button className='flex flex-row items-center bg-cyan-600 self-start text-gray-100 px-3 py-2 rounded-2xl text-xs font-bold lg:mt-6 2xl:text-sm'>
                                         Learn More
                                         <MdKeyboardArrowRight />
                                     </button>
@@ -84,8 +84,8 @@ const Features = () => {
                                     <MdOutlineSecurity />
                                 </div>
                                 <div>
-                                    <h2 className='font-bold text-lg'>Bank-level Security</h2>
-                                    <p className='my-4 text-xs text-gray-600 lg:w-64'>Personal information is encrypted and protected by industry standrd banking security.</p>
+                                    <h2 className='font-bold text-lg 2xl:text-2xl'>Bank-level Security</h2>
+                                    <p className='my-4 text-xs text-gray-600 lg:w-64 2xl:text-base'>Personal information is encrypted and protected by industry standrd banking security.</p>
                                 </div>
                             </div>
                         </div>
@@ -97,17 +97,17 @@ const Features = () => {
                                     <MdOutlineCreditCard />
                                 </div>
                                 <div>
-                                    <h2 className='font-bold text-lg'>Cost Reduction</h2>
-                                    <p className='my-4 text-xs text-gray-600 lg:w-64'>Pay Reduced Payments maintenance and processing fees. No hidden fees.</p>
+                                    <h2 className='font-bold text-lg 2xl:text-2xl'>Cost Reduction</h2>
+                                    <p className='my-4 text-xs text-gray-600 lg:w-64 2xl:text-base'>Pay Reduced Payments maintenance and processing fees. No hidden fees.</p>
                                 </div>
                             </div>
                         </div>
                         <div className='relative flex mt-4 lg:mt-0 md:mt-0 bg-gray-50 p-4 justify-between rounded-2xl lg:p-8 md:p-6 md:w-full lg:w-fit lg:rounded-3xl lg:gap-3'>
                             <div className='lg:w-56'>
-                                <h2 className='font-bold text-xl'>Integrates with best of breed solution</h2>
-                                <p className='my-4 text-xs text-gray-600'>Integrate with best of payment processors and accounting software</p>
+                                <h2 className='font-bold text-xl 2xl:text-2xl'>Integrates with best of breed solution</h2>
+                                <p className='my-4 text-xs text-gray-600 2xl:text-base'>Integrate with best of payment processors and accounting software</p>
                                 <div >
-                                    <button className='flex flex-row items-center bg-cyan-600 self-start text-gray-100 px-3 py-2 rounded-2xl text-xs font-bold lg:mt-6'>
+                                    <button className='flex flex-row items-center bg-cyan-600 self-start text-gray-100 px-3 py-2 rounded-2xl text-xs font-bold lg:mt-6 2xl:text-sm'>
                                         Learn More
                                         <MdKeyboardArrowRight />
                                     </button>

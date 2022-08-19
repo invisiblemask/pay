@@ -36,7 +36,7 @@ const Pricing = () => {
                         <div className='text-cyan-500 text-xs lg:text-sm'>Yearly</div>
                     </div>
                 </div>
-                <div className='mt-8 lg:flex lg:flex-row lg:items-start md:flex md:flex-row'>
+                <div className='mt-8 lg:flex lg:flex-row lg:items-start 2xl:justify-center md:flex md:flex-row'>
                     <div className='flex flex-col bg-gray-50 p-4 sm:rounded-3xl md:h-1/2 lg:rounded-l-3xl md:rounded-l-3xl mb-6 lg:mb-0 md:mb-0 md:mt-10 lg:mt-10 lg:p-6 md:p-6 md:gap-6 lg:gap-5'>
                         <h2 className='font-bold lg:text-xl'>Basic</h2>
                         <p className='text-gray-600 text-xs lg:text-sm md:text-sm mt-2'>Kickstart product research in your business at no cost</p>

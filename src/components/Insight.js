@@ -19,7 +19,7 @@ const Insight = () => {
                         </p>
                     </div>
                 </div>
-                <div className='mt-6 lg:flex lg:flex-row lg:gap-10 md:flex md:gap-2'>
+                <div className='mt-6 lg:flex lg:flex-row 2xl:gap-10 lg:gap-10 md:flex md:gap-2 2xl:justify-center'>
                     <div>
                         <div className='w-full h-56 bg-slate-900 rounded-3xl'></div>
                         <div className='my-4'>

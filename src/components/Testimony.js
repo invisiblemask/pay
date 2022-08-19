@@ -7,7 +7,7 @@ const Testimony = () => {
     return (
         <div>
             <div className='my-32 lg:px-24 lg:my-48'>
-                <div className='px-4 my-12 lg:flex lg:flex-row lg:justify-between md:flex md:gap-4'>
+                <div className='px-4 my-12 lg:flex lg:flex-row lg:justify-between 2xl:justify-evenly md:flex md:gap-4'>
                     <div className='flex flex-col lg:w-96'>
                         <div className='border self-start rounded-2xl px-2 text-cyan-500 bg-indigo-50 text-xs font-semibold'>
                             TESTIMONY
@@ -47,7 +47,7 @@ const Testimony = () => {
                                 <h3 className='mt-3 text-xs'>Maria Evelyn</h3>
                                 <h4 className='mt-1 text-xs text-gray-600'>Project Manager at Stripe</h4>
                             </div>
-                            <div className='lg:absolute h-10 w-10 bg-transparent hover:bg-white cursor-pointer text-black rounded-full sm:hidden lg:block text-2xl -right-4 lg:bottom-28 md:bottom-36 shadow-3xl border border-gray-300 p-2 md:absolute md:block'>
+                            <div className='lg:absolute h-10 w-10 bg-transparent hover:bg-white cursor-pointer text-black rounded-full hidden lg:block text-2xl -right-4 lg:bottom-28 md:bottom-36 shadow-3xl border border-gray-300 p-2 md:absolute md:block'>
                                 <BiRightArrowAlt />
                             </div>
                         </div>

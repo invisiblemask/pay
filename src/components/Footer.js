@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <div className='bg-slate-900 text-white p-8 lg:pt-60 md:pt-60'>
-                <div className='lg:flex lg:flex-row lg:justify-between md:flex md:flex-row md:justify-between lg:px-32'>
+                <div className='lg:flex lg:flex-row lg:justify-between 2xl:justify-around md:flex md:flex-row md:justify-between lg:px-32'>
                     <div className='font-bold text-2xl mb-4'>
                         <a href="/">Pay</a>
                     </div>

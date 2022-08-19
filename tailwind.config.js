@@ -11,6 +11,7 @@ module.exports = {
       'xl': '1.3rem',
       '2xl': '1.5rem',
       '3xl': '1.9rem',
+      '4xl': '2.3rem',
       '5xl': '2.5rem',
     },
     borderRadius: {
@@ -18,6 +19,7 @@ module.exports = {
       '2xl': '1rem',
       '3xl': '1.5rem',
       '4xl': '2rem',
+      '5xl': '2.5rem',
       'full': '50%'
     },
     extend: {},
