@@ -30,7 +30,7 @@ const Features = () => {
                 </div>
                 <div className='my-10'>
                     <div className='my-7 lg:flex lg:flex-row md:flex md:flex-row md:gap-6 lg:gap-8 lg:justify-center'>
-                        <div className='flex mt-4 lg:mt-0 2xl:mb-0 mb-4 md:mt-0 bg-gray-50 p-4 justify-between rounded-2xl lg:p-8 md:p-6 md:w-full lg:w-fit lg:rounded-3xl lg:gap-3'>
+                        <div className='flex mt-4 lg:mt-0 lg:mb-0 2xl:mb-0 mb-4 md:mt-0 bg-gray-50 p-4 justify-between rounded-2xl lg:p-8 md:p-6 md:w-full lg:w-fit lg:rounded-3xl lg:gap-3'>
                             <div className='lg:w-56'>
                                 <h2 className='font-bold text-xl 2xl:text-2xl'>Pay with PAY, quick, simple and easy</h2>
                                 <p className='my-4 text-xs text-gray-600 2xl:text-base'>Use Pay to pay to a merchant and enjoy optimal payment user experience</p>

@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className='bg-black text-white text-center text-3xs font-bold py-4 lg:text-sm'>
                     <span className='bg-white text-black px-1 rounded-lg'>New</span> We are excited to announce our brand new product. <span className='underline cursor-pointer'>Learn More.</span>
                 </div>
-                <div className='flex justify-between p-4 lg:px-24'>
+                <div className='flex justify-between p-4 lg:px-24 2xl:px-44'>
                     <div className='lg:flex lg:items-center lg:justify-between lg:gap-20 md:flex md:items-center md:justify-between md:gap-20'>
                         <div>
                             <a className='text-2xl text-cyan-500 font-bold' href='/'>

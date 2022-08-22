@@ -49,7 +49,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='relative flex-1 lg:flex justify-center mt-32 hidden md:flex'>
-                        <div className='rounded-tl-lg rounded-br-[400px] rounded-tr-[100px] rounded-r-2xl w-full h-screen md:h-full lg:h-full bg-gray-50'></div>
+                        <div className='rounded-tl-[200px] rounded-br-[400px] rounded-tr-[200px] w-3/4 h-screen md:h-full lg:h-full bg-gray-50 rounded-l-4xl'></div>
                         <div className=''>
                             <div className=''>
                                 <div className='bg-opacity-60 backdrop-filter backdrop-blur-lg absolute lg:left-36 left-0 flex flex-col shadow-xl rounded-2xl border p-6 -top-32'>
